@@ -151,7 +151,7 @@ app.post("/stop-sending", (req, res) => {
 
 // Serve the HTML page
 app.get("/", (req, res) => {
-  res.sendFile(__dirname + "/public/index.html");
+  res.sendFile(__dirname + "/index.html");
 });
 
 // Start the server
